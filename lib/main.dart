@@ -1,4 +1,5 @@
-import 'package:challenges/pages/home_page.dart';
+import 'package:challenges/src/pages/home_page.dart';
+import 'package:challenges/src/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
-      routes: {
-        '/' : (context) => HomePage()
-      },
+      routes: getAplicationRoutes(),
     );
   }
 }

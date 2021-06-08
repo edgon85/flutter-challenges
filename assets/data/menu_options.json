@@ -1,0 +1,15 @@
+{
+    "appName": "Components",
+    "routes": [
+        {
+            "route": "expanded",
+            "icon": "add_alert",
+            "text": "Widget Expanded"
+        },
+        {
+            "route": "wrap",
+            "icon": "add_alert",
+            "text": "Widget Wrap"
+        }
+    ]
+}
