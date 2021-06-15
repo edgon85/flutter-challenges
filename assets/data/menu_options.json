@@ -10,6 +10,11 @@
             "route": "wrap",
             "icon": "add_alert",
             "text": "Widget Wrap"
+        },
+        {
+            "route": "animated-container",
+            "icon": "add_alert",
+            "text": "Animated Container"
         }
     ]
 }

@@ -1,3 +1,4 @@
+import 'package:challenges/src/pages/animated_container_page.dart';
 import 'package:challenges/src/pages/expanded_page.dart';
 import 'package:challenges/src/pages/home_page.dart';
 import 'package:challenges/src/pages/wrap_page.dart';
@@ -8,5 +9,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/': (BuildContext context) => HomePage(),
     'expanded': (BuildContext context) => ExpandedPage(),
     'wrap': (BuildContext context) => WrapPage(),
+    'animated-container': (BuildContext context) => AnimatedContainerPage(),
   };
 }
