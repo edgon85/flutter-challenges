@@ -15,6 +15,11 @@
             "route": "animated-container",
             "icon": "add_alert",
             "text": "Animated Container"
+        },
+        {
+            "route": "opacity-animated-opacity",
+            "icon": "add_alert",
+            "text": "Opacity y Animated Opacity"
         }
     ]
 }
