@@ -25,6 +25,11 @@
             "route": "future-builder",
             "icon": "add_alert",
             "text": "Future builder"
+        },
+        {
+            "route": "fade-transition",
+            "icon": "add_alert",
+            "text": "FadeTransition"
         }
     ]
 }
