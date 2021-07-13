@@ -20,6 +20,11 @@
             "route": "opacity-animated-opacity",
             "icon": "add_alert",
             "text": "Opacity y Animated Opacity"
+        },
+        {
+            "route": "future-builder",
+            "icon": "add_alert",
+            "text": "Future builder"
         }
     ]
 }
