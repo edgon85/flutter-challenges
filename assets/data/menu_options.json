@@ -30,6 +30,11 @@
             "route": "fade-transition",
             "icon": "add_alert",
             "text": "FadeTransition"
+        },
+        {
+            "route": "page-view",
+            "icon": "add_alert",
+            "text": "PageView"
         }
     ]
 }

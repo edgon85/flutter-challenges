@@ -2,7 +2,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
 class _MenuProvider {
-  _MenuProvider() {}
+  _MenuProvider();
 
   List<dynamic> options = [];
 

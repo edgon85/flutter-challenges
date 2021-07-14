@@ -4,6 +4,7 @@ import 'package:challenges/src/pages/fade_transition_page.dart';
 import 'package:challenges/src/pages/future_builder_page.dart';
 import 'package:challenges/src/pages/home_page.dart';
 import 'package:challenges/src/pages/opacity_animated_opacity.dart';
+import 'package:challenges/src/pages/page_view_page.dart';
 import 'package:challenges/src/pages/wrap_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,5 +18,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
         OpacityAnimatedOpacityPage(),
         'future-builder': (BuildContext context) => FutureBuilderPage(),
     'fade-transition': (BuildContext context) => FadeTransitionPage(),
+    'page-view': (BuildContext context) => PageViewPage(),
   };
 }
