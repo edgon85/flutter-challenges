@@ -40,6 +40,11 @@
             "route": "sliver-app-bar",
             "icon": "add_alert",
             "text": "SliverAppBar"
+        },
+        {
+            "route": "stream-builder",
+            "icon": "add_alert",
+            "text": "StreamBuilder"
         }
     ]
 }
