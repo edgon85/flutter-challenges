@@ -35,6 +35,11 @@
             "route": "page-view",
             "icon": "add_alert",
             "text": "PageView"
+        },
+        {
+            "route": "sliver-app-bar",
+            "icon": "add_alert",
+            "text": "SliverAppBar"
         }
     ]
 }
