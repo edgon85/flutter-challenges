@@ -1,4 +1,5 @@
 import 'package:challenges/src/pages/animated_container_page.dart';
+import 'package:challenges/src/pages/clip_rect_oval_path_page.dart';
 import 'package:challenges/src/pages/expanded_page.dart';
 import 'package:challenges/src/pages/fade_transition_page.dart';
 import 'package:challenges/src/pages/future_builder_page.dart';
@@ -23,5 +24,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'page-view': (BuildContext context) => PageViewPage(),
     'sliver-app-bar': (BuildContext context) => SliverAppBarPage(),
     'stream-builder': (BuildContext context) => StreamBuilderPage(),
+    'clip-rrect-oval-path': (BuildContext context) => ClipRRectOValPathPage(),
   };
 }

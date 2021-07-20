@@ -45,6 +45,11 @@
             "route": "stream-builder",
             "icon": "add_alert",
             "text": "StreamBuilder"
+        },
+        {
+            "route": "clip-rrect-oval-path",
+            "icon": "add_alert",
+            "text": "ClipRRect, ClipOval, ClipPath"
         }
     ]
 }
