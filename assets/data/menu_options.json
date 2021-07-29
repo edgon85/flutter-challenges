@@ -2,6 +2,11 @@
     "appName": "Components",
     "routes": [
         {
+            "route": "movies-app",
+            "icon": "add_alert",
+            "text": "Movies App"
+        },
+        {
             "route": "expanded",
             "icon": "add_alert",
             "text": "Widget Expanded"

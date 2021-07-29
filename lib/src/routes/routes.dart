@@ -6,6 +6,7 @@ import 'package:challenges/src/pages/future_builder_page.dart';
 import 'package:challenges/src/pages/home_page.dart';
 import 'package:challenges/src/pages/opacity_animated_opacity.dart';
 import 'package:challenges/src/pages/page_view_page.dart';
+import 'package:challenges/src/pages/peliculas_app/movies_app.dart';
 import 'package:challenges/src/pages/sliverapp_bar_page.dart';
 import 'package:challenges/src/pages/stream_builder_page.dart';
 import 'package:challenges/src/pages/wrap_page.dart';
@@ -25,5 +26,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'sliver-app-bar': (BuildContext context) => SliverAppBarPage(),
     'stream-builder': (BuildContext context) => StreamBuilderPage(),
     'clip-rrect-oval-path': (BuildContext context) => ClipRRectOValPathPage(),
+    'movies-app': (BuildContext context) => MainMoviesApp(),
   };
 }

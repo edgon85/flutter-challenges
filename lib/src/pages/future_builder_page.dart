@@ -1,5 +1,5 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:challenges/modesl/reqres_model.dart';
+import 'package:challenges/modes/reqres_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
