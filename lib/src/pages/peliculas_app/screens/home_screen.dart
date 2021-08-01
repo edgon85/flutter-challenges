@@ -1,4 +1,5 @@
 import 'package:challenges/src/pages/peliculas_app/providers/movie_provider.dart';
+import 'package:challenges/src/pages/peliculas_app/search/search_delegate.dart';
 import 'package:challenges/src/pages/peliculas_app/widgets/card_swiper.dart';
 import 'package:challenges/src/pages/peliculas_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,11 @@ class HomeMovieScreen extends StatelessWidget {
         centerTitle: true,
         elevation: 0,
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.search_outlined))
+          IconButton(
+            icon: Icon(Icons.search_outlined),
+            onPressed: () =>
+                showSearch(context: context, delegate: MovieSearchDelegate()),
+          )
         ],
       ),
       body: SingleChildScrollView(

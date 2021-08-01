@@ -32,7 +32,7 @@ List<Widget> _listItems(List<dynamic> data, BuildContext context) {
       title: Text(opt['text']),
       // leading: getIcon(opt['icon']),
       trailing: Icon(Icons.keyboard_arrow_right),
-      onTap: () => Navigator.pushNamed(context, opt['route']),
+      onTap: () => Navigator.pushReplacementNamed(context, opt['route']),
     );
 
     options..add(widgetTemp)..add(Divider());
